@@ -1,0 +1,23 @@
+.editName {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 40%;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+.editName > input {
+    width: 50%;
+}
+
+.editName > button {
+    width: 30%;
+}
+
+.gridAlignRight {
+    justify-self: end;
+}
+
+.gridAlignLeft {
+    justify-self: start;
+}

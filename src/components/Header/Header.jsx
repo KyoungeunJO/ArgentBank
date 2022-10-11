@@ -31,7 +31,10 @@ function Header() {
                     </Link>
                  : 
                     <>
-                    <Link className="main-nav-item" to='/profile'>{user.firstName}</Link>
+                    <Link className="main-nav-item" to='/profile'>
+                        <FontAwesomeIcon icon={faUserCircle} />
+                        {user.firstName}
+                    </Link>
 
                     <Link className="main-nav-item" to='/' onClick={logOut}>
                         <FontAwesomeIcon icon={faSignOutAlt} />
